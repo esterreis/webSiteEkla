@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Armata|Noticia+Text|Nunito|Oxygen|Roboto+Mono|Trirong');
+body {
+    background-color: white;
+    height: 100%;
+
+}
+#interface{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    padding-bottom:    50px;
+    background-color: yellow;
+
+}
+article {
+    p: class"flow-text"
+}
+
+p {
+    font-family: 'Noticia Text', serif;
+    font-weight: 400;
+    class: "flow-text";
+    text-align: justify;
+
+}
+h1 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 250%;
+}
+
+h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 200%;
+}
+h3 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 150%;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+}

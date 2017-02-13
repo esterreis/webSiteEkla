@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title> Ekla Academy </title>
+		<!--Materialize CSS -->
+		<link rel="stylesheet" href="_css/materialize.css">
+        <link rel="stylesheet" href="_css/custom.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+<body>
+<header id="cabecalho">
+<nav class="cyan lighten-1">
+    <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Ekla Academy</a></di>
+            <a href="#" data-activates="menu-mobile" class="button-collapse right">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="https://www.youtube.com/channel/UCCp07l3h8BMWDhtMpLE5MJQ/featured" target="_blank">Vídeos</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+
+        <ul id="menu-mobile" class="side-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="https://www.youtube.com/channel/UCCp07l3h8BMWDhtMpLE5MJQ/featured" target="_blank">Vídeos</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+</header>
+
+<div id="interface">
+
+</div>
+
+<!-- Rodape -->
+<footer class="page-footer cyan lighten-1">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Ekla Academy</h5>
+      </div>
+          <ul>
+            <li><a class="grey-text text-lighten-3" onclick="carregar('termos-de-uso.html')"href="termos-de-uso.html">Termos de Uso</a></li>
+            <li><a class="grey-text text-lighten-3" href="politica-de-privacidade.html">Política de privacidade</a></li>
+            <li><a class="grey-text text-lighten-3" href="consideracoes-importantes.html">Considerações importantes</a></li>
+          </ul>
+    </div>
+  </div>
+          <div class="rodape">
+            <div class="container">
+            © 2017 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+</footer>
+<!-- Jquery -->
+  <script src="jquery-3.1.1.min.js"></script>
+<!--Materialize JS -->
+  <script src="_js/materialize.js"></script>
+    <script>
+        //Menu mobile
+        $(".button-collapse").sideNav();
+    </script>
+</body>
+</html>
+

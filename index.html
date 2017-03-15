@@ -7,14 +7,16 @@
 		<!--Materialize CSS -->
 		<link rel="stylesheet" href="_css/materialize.css">
         <link rel="stylesheet" href="_css/custom.css">
+        <link rel="stylesheet" href="_img">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     </head>
 <body>
-<header id="cabecalho">
-<nav class="cyan lighten-1">
-    <div class="nav-wrapper container">
-            <a href="#" class="brand-logo">Ekla Academy</a></di>
+<header>
+    <div class="navbar-fixed" id="a">
+    <nav class="meu menu">
+        <div class="nav-wrapper ">
+            <a href="#" class="brand-logo">Ekla Academy</a>
             <a href="#" data-activates="menu-mobile" class="button-collapse right">
                 <i class="material-icons">menu</i>
             </a>
@@ -25,44 +27,99 @@
                 <li><a href="contatos.html">Contatos</a></li>
             </ul>
 
-        <ul id="menu-mobile" class="side-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="https://www.youtube.com/channel/UCCp07l3h8BMWDhtMpLE5MJQ/featured" target="_blank">Vídeos</a></li>
-        <li><a href="contatos.html">Contatos</a></li>
-        </ul>
+            <ul id="menu-mobile" class="side-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="https://www.youtube.com/channel/UCCp07l3h8BMWDhtMpLE5MJQ/featured" target="_blank">Vídeos</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
     </div>
-</nav>
-
-
 </header>
 
-<div id="interface">
+<main class="mensagens ">
+    <!-- MENSAGEM -->
+    <section id="mensagem1"><article class="mensagem bg-white">
+        <div class="inner">
 
-</div>
+            <h1> Você 1% melhor a cada dia!</h1>
+               <h2> O seu próximo nível de transformação começa aqui!
+               </h2>
+                <br>
+            <img src="_img/uniao-global.jpg "width="300"  >
+            <h2>O Mundo é de quem melhora sempre</h2>
+               <p> A <b>Ekla Academy</b> oferece experiência, focados no Mindset de Inovação, produtividade e Foco.
+                <br>
+                Em uma plataforma 100% digital, trazemos um estilo de vida voltado ao auto-aperfeiçoamento a auto-realização
+                   e ao autoconhecimento pra que seja o Mestre de si mesmo.
+                </p>
+
+
+        </div>
+    </article></section>
+
+    <section id="mensagem2"><article class="mensagem-heroismo ">
+        <div class="inner">
+            <img src="_img/super-heroi.png "width="300"  >
+            <h2> O Herói da sua Vida é Você</h2>
+               <p> Por incrível que pareça, você é o autor de sua própria obra vida, e o que fazemos é dar para você a caneta e o papel certo para que possa criar e reescrever a sua história.
+
+            </p>
+        </div>
+    </article></section>
+
+    <section id="mensagem3"><article class="mensagem bg-white">
+        <div class="inner">
+            <img src="_img/super-heroi.png "width="300"  >
+            <h2> Atitudes extraordinárias, precisa de pessoas extraordinárias</h2>
+            <p>
+                Transformar pessoas para serem mais auto-empreendedoras, criativas e positivas.<br>
+
+                Atitudes que ajudam as pessoas de tal forma, que todos saiam ganhando.<br>
+
+                Uma utopia? Não, Um sonho? Muito menos, uma realidade vivida na prática em busca de alta performar a cada momento.<br>
+
+                Todos segundos e minutos vivendo e aprendendo com cada pessoa e coisa neste planeta.<br>
+
+                O positivo que traga, mais saúde, resultados e aprendizados em uma Mentalidade focada na solução e resolução de desafios.<br>
+
+                Uma visão de longo prazo para agir no presente, e a cada instante auto-empreendendo uma nova ação,
+                seja ela, nos negócios, relacionamentos ou na vida.<br>
+
+                Um novo olhar para as palavras Crise e problema, o nosso primeiro passo é Mudar (Para melhor, sempre).
+
+            </p>
+        </div>
+    </article></section>
+
+
+    <!-- /MENSAGEM -->
+</main>
+
 
 <!-- Rodape -->
-<footer class="page-footer cyan lighten-1">
+
+<footer class="page-footer , #1673ff, #00aa88" id="footer">
   <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h5 class="white-text">Ekla Academy</h5>
-      </div>
-          <ul>
-            <li><a class="grey-text text-lighten-3" onclick="carregar('termos-de-uso.html')"href="termos-de-uso.html">Termos de Uso</a></li>
-            <li><a class="grey-text text-lighten-3" href="politica-de-privacidade.html">Política de privacidade</a></li>
-            <li><a class="grey-text text-lighten-3" href="consideracoes-importantes.html">Considerações importantes</a></li>
-          </ul>
-    </div>
-  </div>
+
+        <h1>Ekla Academy</h1>
+
+
           <div class="rodape">
-            <div class="container">
-            © 2017 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div class="container center-align">
+            Copyright © Ekla Academy 2016-2017. <br> Todos os direitos reservados
+                <ul>
+                    <li><a class="grey-text text-lighten-3" onclick="carregar('termos-de-uso.html')"href="termos-de-uso.html">Termos de Uso</a></li>
+                    <li><a class="grey-text text-lighten-3" href="politica-de-privacidade.html">Política de privacidade</a></li>
+                    <li><a class="grey-text text-lighten-3" href="consideracoes-importantes.html">Considerações importantes</a></li>
+                </ul>
             </div>
           </div>
+  </div>
 </footer>
-<!-- Jquery -->
+
+    <!-- Jquery -->
   <script src="jquery-3.1.1.min.js"></script>
 <!--Materialize JS -->
   <script src="_js/materialize.js"></script>

@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Armata|Noticia+Text|Nunito|Oxygen|Roboto+Mono|Trirong');
+
+#nav-mobile a:hover {
+   color:  #71B3E8 ;
+}
+
+#nav-mobile a:link {
+    color: #8b1014;
+}
+
+nav  {
+    background-color: #000000;
+}
+#nav-mobile{
+   text-decoration-color: #71B3E8 ;
+
+}
 body {
-    background-color: white;
+    background-color: #F5F5F5;
     height: 100%;
 
 }
@@ -37,9 +53,20 @@ h3 {
     font-family: 'Oxygen', sans-serif;
     font-size: 150%;
 }
-footer {
-    position: absolute;
+section {
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 5px;
+    padding-top: 25px;
+}
+div.subtitulos{
+
+    font-weight: bold;
+}
+#footer {
+    background-image: linear-gradient(to right, #1673ff, #00aa88);
+    position: static;
     bottom: 0px;
     width: 100%;
-
+    height: 20%;
 }
